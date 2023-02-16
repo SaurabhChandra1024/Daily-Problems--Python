@@ -1,0 +1,12 @@
+num = int(input())
+rev = num%10
+print(rev)
+num=num//10
+print(num)
+while(num>0):
+  r=num%10
+  print(r)
+  num=num//10
+  print(num)
+  rev=rev*10+r
+print(rev)
