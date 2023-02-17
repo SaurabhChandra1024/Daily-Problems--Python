@@ -1,0 +1,5 @@
+n = abs(int(input("enter a number :")))
+ans=0
+for i in range(n):
+  ans=ans+1
+  print(ans)
