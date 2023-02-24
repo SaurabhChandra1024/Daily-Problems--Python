@@ -1,0 +1,8 @@
+n=abs(int(input()))
+L=[]
+i=0
+while(i<n):
+  word=str(input())
+  L.append(word)
+  i=i+1
+print(L)
