@@ -1,0 +1,11 @@
+l = [7,4,1,2,5,8,9,6,3]#input
+x = []#variable to store sorted list
+while(len(l)>0):#loop to execute the program
+  min = l[0]#variable to store min value
+  for i in range(len(l)):
+    if l[i]<min:#evealuating and storing variable
+      min=l[i]
+  x.append(min)#add min to list x
+  l.remove(min)#remove min to list l
+print(l)
+print(x)
