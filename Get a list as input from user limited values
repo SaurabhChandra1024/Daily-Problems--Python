@@ -1,0 +1,7 @@
+list = [] #Creating an empty list
+n = 10 #variable to store number of input
+#setting input range to first input variable and taking input
+for i in range(0,n):
+  element = int(input())
+  list.append(element)#adding element to list
+print(list)
