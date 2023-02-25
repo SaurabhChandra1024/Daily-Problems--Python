@@ -1,0 +1,6 @@
+import math
+L=input().split()
+M=[]
+for num in L:
+  M.append(math.floor(float(num)))
+print(",".join(str(num) for num in M))
