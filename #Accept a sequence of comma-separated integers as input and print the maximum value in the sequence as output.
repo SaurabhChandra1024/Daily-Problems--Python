@@ -1,0 +1,8 @@
+integer=input()
+csv=integer.split(',')
+max_num=int(csv[0])
+
+for num in csv:
+    if int(num) > max_num:
+      max_num=int(num)
+print(max_num)
