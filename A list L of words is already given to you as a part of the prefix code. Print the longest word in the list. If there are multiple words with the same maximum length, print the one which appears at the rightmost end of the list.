@@ -1,0 +1,7 @@
+L = input().split(',')
+V=L[0]
+U=""
+for word in L:
+  if len(word)>=len(V):
+    V=word
+print(V)
